@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+figure{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.display-none{
+    display: none;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.navbar{
+    background-color: #0C3BF1;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.356);
+    height: 71px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.nav_background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 71px;
+}
+.menu_buttons{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    padding: 0 35px;
+    position: relative;
+    z-index: 3;
+}
+
+.header_logo_container{
+    display: flex;  
+}
+.header_logo_container img{
+    height: 28px;
+    width: 28px;
+}
+.menu_icon_container img{
+    width: 36px;
+    height: 24px;
+}
+.logo_name{
+    font-size: 18px; 
+    font-weight: 600;
+    margin: 0;
+    color: #E8E8E8;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.main_title{
+    font-size: 20px;
+    color: #2A2A2A;
+}
+.hero_container{
+    padding: 50px;
+    position: relative;
+}
+.main_subtitle{
+    color: #616161;
+    font-size: 13px;    
+    margin-right: -3px;
+}
+.hero_background{
+    position: absolute;
+    right: 0;
+}
+.adoby_products_container{
+    margin-top:47px; 
+    margin-bottom: 70px; 
+}
+.download_it_btn{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(11,29,38,1) 0%, rgba(49,136,223,1) 0%, rgba(49,110,172,1) 100%);
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #F9F9F9;
+    text-decoration: none;
+    padding: 11px 80px;
+}
+.download_btn_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
