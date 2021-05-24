@@ -1,0 +1,10 @@
+<svg id="Grupo_217" data-name="Grupo 217" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63.52" height="64.049" viewBox="0 0 63.52 64.049">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f7ff"/>
+      <stop offset="1" stop-color="#f9f9ff"/>
+    </linearGradient>
+  </defs>
+  <ellipse id="Elipse_31" data-name="Elipse 31" cx="31.76" cy="32.024" rx="31.76" ry="32.024" fill="#5bb1e9"/>
+  <path id="cloud_data_storage_icon_181582" d="M39.59,38.239a7.108,7.108,0,0,0-5.263-5.257c.027-.319.042-.638.042-.957A11.391,11.391,0,0,0,22.779,20.87a11.565,11.565,0,0,0-11.218,8.4A8.979,8.979,0,0,0,4,37.968a9.125,9.125,0,0,0,9.343,8.869H32.667a7.117,7.117,0,0,0,5.308-2.366,6.98,6.98,0,0,0,1.615-6.232Z" transform="translate(9.818 -3.123)" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,3 +1,4 @@
+/********************** GENERAL STYLES */
 body{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,6 +18,8 @@ p{
     align-items:center;
 }
 
+
+/********************** HEADER */
 .navbar{
     background-color: #0C3BF1;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.356);
@@ -61,6 +64,10 @@ p{
     margin-left: 10px;
     margin-top: 3px;
 }
+
+
+
+/********************** MAIN CONTENT */
 .main_title{
     font-size: 20px;
     color: #2A2A2A;
@@ -96,4 +103,133 @@ p{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+
+
+
+/********************** BENEFITS */
+.benefits{
+    padding: 30px 40px 0px 40px;
+}
+.benefits_title, .downloads_title{
+    color: #585858;
+    text-align: center;
+}
+.see_more_container{
+    display: flex;
+    justify-content:center;
+}
+
+
+.benefit_title{
+    color: #707070;
+    margin: 0;
+    font-size: 12px;
+}
+.benefit_subtitle{
+    color: #A4A4A4;
+    font-weight: 600;
+    font-size: 9px;
+    margin: 0;
+}
+.two_benefits_top{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-left: 24px;    
+}
+.two_benefits_bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px; 
+    margin-bottom: 80px;
+}
+
+.align_benefit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.benefit_text{
+    margin-top: 5px;
+}
+
+
+
+
+/********************** DOWNLOADS SECTION */
+.download_name{
+    display: flex;
+    align-items: center;    
+}
+.download_title{
+    font-size: 15px;
+    font-weight: 600;
+    color: #585858;
+}
+.downloads_wrapper{
+    margin-top: 48px;
+}
+.downloads_menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4%;
+}
+.downloads_menu_btn{
+    width: 119px;
+    height: 74px;
+    background-color: #F5F9FB;
+    border-radius: 9px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.selected_download_icon{
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 10px);
+    margin-bottom: -33px;
+    visibility: hidden;
+}
+
+.d-active_menu{
+    background-color: #3681D6;
+}
+.d-active_menu p{
+    color: #F2F2F2;
+}
+.d-active_menu .selected_download_icon{
+    visibility:visible;
+}
+
+.green_point{
+    height: 4px;
+    width: 4px;
+    background-color: #18C40C;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+.gold_point{
+    height: 4px;
+    width: 4px;
+    background-color: #C48D0C;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+.blue_point{
+    height: 4px;
+    width: 4px;
+    background-color: #0C7AC4;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+.download_to_display{
+     display: flex;
+     position: relative;
 }

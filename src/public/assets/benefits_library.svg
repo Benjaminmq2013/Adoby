@@ -1,0 +1,7 @@
+<svg id="folder_icon-icons.com_66529" xmlns="http://www.w3.org/2000/svg" width="64.049" height="64.049" viewBox="0 0 64.049 64.049">
+  <ellipse id="circle" cx="32.024" cy="32.024" rx="32.024" ry="32.024" fill="#4b5f83"/>
+  <g id="icon" transform="translate(14.685 17.443)">
+    <path id="bottom" d="M61.893,67.919h-30.9A2,2,0,0,1,29,65.925V44.994A2,2,0,0,1,30.994,43h30.9a2,2,0,0,1,1.994,1.994V65.925A2,2,0,0,1,61.893,67.919Z" transform="translate(-29 -39.013)" fill="#fff"/>
+    <path id="top" d="M61.893,38.987H40.961V36.994A2,2,0,0,0,38.968,35H30.994A2,2,0,0,0,29,36.994v5.981H63.887V40.981A2,2,0,0,0,61.893,38.987Z" transform="translate(-29 -35)" fill="#e6e6e6"/>
+  </g>
+</svg>
