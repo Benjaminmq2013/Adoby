@@ -382,3 +382,76 @@ p{
     bottom: 0;
     margin-bottom: -26px;
 }
+
+
+/* ************************** SUBSCRIPTIONS SECTION */
+.adoby-logo{
+    height: 62px;
+    height: 62px;
+}
+.subscriptions_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+.subscription_main_title{
+    color: #B12816;
+    font-weight: 600;
+    font-size: 16px;
+}
+.plans_container{
+    display: flex;
+}
+
+.plans_card{
+    width: 302px;
+    height: 663px;
+    background-color: #FEFEFE;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.432);
+    border-radius: 23px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan_name{
+    background-color: #0C7AC4;
+    width: 120px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #F2F2F2;
+    margin-top: 45px;
+    margin-bottom: 39px;
+}
+.plan_benefits_container{
+
+}
+.plan_benefit_text{
+    font-size: 13px;
+    color: #585858;
+    font-weight: 600;
+    margin-left: -12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.plan_benefit_text img{
+    margin-right: 8px;
+}
+.benefit_disabled{
+    opacity: 0.34;
+    
+}
+.plan_price{
+    color: #707070;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+}
