@@ -1,3 +1,1 @@
-import { hola } from "./module1.js"
-
-hola()
+import {} from "./downloads/downloads-menu.js"

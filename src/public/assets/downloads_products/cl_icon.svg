@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="82" viewBox="0 0 68 82">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#002643"/>
+      <stop offset="1" stop-color="#003b47"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_180" data-name="Grupo 180" transform="translate(0.063 0.417)">
+    <rect id="Rectángulo_190" data-name="Rectángulo 190" width="65" height="82" rx="6" transform="translate(2.937 -0.417)" fill="url(#linear-gradient)"/>
+    <text id="Adoby" transform="translate(25.937 9.583)" fill="#f3f3f3" font-size="6" font-family="SegoePrint-Bold, Segoe Print" font-weight="700"><tspan x="0" y="0">Adoby</tspan></text>
+    <text id="cl" transform="translate(24.937 58.583)" fill="#f3f3f3" font-size="24" font-family="SegoePrint-Bold, Segoe Print" font-weight="700"><tspan x="0" y="0">cl</tspan></text>
+    <g id="Grupo_123" data-name="Grupo 123" transform="translate(0 65.203)">
+      <rect id="Rectángulo_168" data-name="Rectángulo 168" width="31" height="12" rx="2" transform="translate(-0.063 0.379)" fill="#c48d0c"/>
+      <text id="Gold" transform="translate(8.937 8.379)" fill="#f3f3f3" font-size="6" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Gold</tspan></text>
+    </g>
+  </g>
+</svg>

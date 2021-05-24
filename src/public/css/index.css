@@ -2,6 +2,7 @@
 body{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F5F8FB;
 }
 figure{
     margin: 0;
@@ -53,8 +54,9 @@ p{
     width: 28px;
 }
 .menu_icon_container img{
-    width: 36px;
-    height: 24px;
+    width: 32px;
+    height: 21px;
+    margin-top: 3px;
 }
 .logo_name{
     font-size: 18px; 
@@ -175,6 +177,7 @@ p{
     display: flex;
     justify-content: space-between;
     padding: 0px 4%;
+    
 }
 .downloads_menu_btn{
     width: 119px;
@@ -186,6 +189,8 @@ p{
     justify-content: center;
     align-items: center;
     position: relative;
+
+    transition: .15s;
 }
 .selected_download_icon{
     position: absolute;
@@ -195,15 +200,42 @@ p{
     visibility: hidden;
 }
 
-.d-active_menu{
+
+.premium_active_menu{
     background-color: #3681D6;
+    transform:scale(1.05);
 }
-.d-active_menu p{
+.premium_active_menu p{
     color: #F2F2F2;
 }
-.d-active_menu .selected_download_icon{
+.premium_active_menu .selected_download_icon{
     visibility:visible;
 }
+
+
+.free_active_menu{
+    background-color: #18C40C;
+    transform:scale(1.05);
+}
+.free_active_menu p{
+    color: #F2F2F2;
+}
+.free_active_menu .selected_download_icon{
+    visibility:visible;
+}
+
+
+.gold_active_menu{
+    transform:scale(1.05);
+    background-color: #C48D0C;
+}
+.gold_active_menu p{
+    color: #F2F2F2;
+}
+.gold_active_menu .selected_download_icon{
+    visibility:visible;
+}
+
 
 .green_point{
     height: 4px;
@@ -232,4 +264,121 @@ p{
 .download_to_display{
      display: flex;
      position: relative;
+}
+.left_decorator{
+    height: 680px;
+    width: 4px;
+    background-color: #88A4FF;
+    margin-top: 37px;
+    margin-left: 10px;    
+}
+.right_decorator{
+    height: 680px;
+    width: 4px;
+    background-color: #88A4FF;
+    margin-top: 37px;
+    margin-right: 10px;  
+}
+.download_options_container{
+    height: 267px;
+    width: 237px;
+    margin-top: 58px;
+    background-color: #FEFEFE;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.479);
+    border-radius: 18px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.downloads_icon{
+    margin-top: 18px;
+}
+.download_description{
+    font-size: 11px;
+    color: #3B3B3B;
+    font-weight: 700;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.premium_subscription_btn{
+    margin-top: 23px;
+    margin-bottom: 14px;
+    background-color: #0C7AC4;
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+    font-weight: 600;
+    color: #F3F3F3;
+    outline: none;
+    border: 0;
+}
+.premium_trial_btn{
+    width: 160px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid #0C7AC4;
+    border-radius: 5px;
+    outline: none;
+    color: #0C7AC4;
+    font-weight: 600;
+}
+
+.free_subscription_btn{
+    margin-top: 23px;
+    margin-bottom: 14px;
+    background-color: #279E33;
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+    font-weight: 600;
+    color: #F3F3F3;
+    outline: none;
+    border: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free_subscription_btn img, span{
+    margin-right: 5px;
+}
+
+.gold_subscription_btn{
+    margin-top: 23px;
+    margin-bottom: 14px;
+    background-color: #C48D0C;
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+    font-weight: 600;
+    color: #F3F3F3;
+    outline: none;
+    border: 0;
+}
+.gold_trial_btn{
+    width: 160px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid #C48D0C;
+    border-radius: 5px;
+    outline: none;
+    color: #C48D0C;
+    font-weight: 600;
+}
+
+.freemium_customization{
+    height: 233px;
+}
+
+
+.downloads_number{
+    color: #7F7F7F;
+    position: absolute;
+    font-weight: 600;
+    font-size: 15px;
+    bottom: 0;
+    margin-bottom: -26px;
 }
