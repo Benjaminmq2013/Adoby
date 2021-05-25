@@ -418,7 +418,7 @@ p{
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 0;
+    left: calc(50vw - 151px)
 }
 
 .plan_name{
@@ -479,4 +479,41 @@ p{
     height: 34px;
     font-size: 13px;
     font-weight: 600;
+}
+
+.plans_card_free, .plans_card_premium, .plans_card_gold{
+    transition: .5s;
+}
+.card_to_right{
+    left: calc(50vw - 95px);
+    transform: scale(0.9);
+    z-index: 1;
+    opacity: 0.48;
+}
+.card_to_left{
+    left: calc(50vw - 207px);
+    transform: scale(0.9);
+    z-index: 1;
+    opacity: 0.48;
+}
+.card_to_center{
+    z-index: 3;
+}
+
+.next_plan, .last_plan{
+    z-index: 4;
+    position: absolute;
+    height: 85%;
+    background-color: transparent;
+    border: 0;
+}
+.last_plan{
+    left: 0;
+}
+.next_plan{
+    right: 0;
+}
+
+.disappear{
+    opacity: 0;
 }
