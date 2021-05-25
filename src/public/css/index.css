@@ -399,9 +399,12 @@ p{
     color: #B12816;
     font-weight: 600;
     font-size: 16px;
+    margin-bottom: 72px;
 }
 .plans_container{
-    display: flex;
+    position: relative;
+    width: 100%;
+    height: 733px;
 }
 
 .plans_card{
@@ -414,6 +417,8 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    left: 0;
 }
 
 .plan_name{
@@ -430,9 +435,7 @@ p{
     margin-top: 45px;
     margin-bottom: 39px;
 }
-.plan_benefits_container{
 
-}
 .plan_benefit_text{
     font-size: 13px;
     color: #585858;
@@ -454,4 +457,26 @@ p{
     font-size: 17px;
     font-weight: 600;
     margin-top: 20px;
+}
+.subscribe_plan_btn{
+    background-color: #397BFF;
+    border-radius: 9px;
+    width: 200px;
+    height: 34px;
+    border: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #E8E8E8;
+    margin-bottom: 15px;
+    margin-top: 29px;
+}
+.try_premium_btn{
+    background-color: transparent;
+    border: 2px solid #397BFF;
+    color: #397BFF;
+    border-radius: 9px;
+    width: 200px;
+    height: 34px;
+    font-size: 13px;
+    font-weight: 600;
 }
