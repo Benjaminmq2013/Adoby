@@ -6,10 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adoby</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animations.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
+
+            <div class="hamburger_background display-none"></div>
+            <div class="hamburger_menu display-none">
+                <img class="close_menu_icon" src="assets/menu_icons/close_icon.svg" alt=""> 
+                <div class="menu_container">
+                    <p class="menu_option"><img src="assets/menu_icons/home_icon.svg" alt=""> Inicio</p>
+                    <p class="menu_option"><img src="assets/menu_icons/downloads_icon.svg" alt=""> Descargas</p>
+                    <p class="menu_option"><img src="assets/menu_icons/login_icon.svg" alt=""> Login</p>
+                    <p class="menu_option"><img src="assets/menu_icons/contact_icon.svg" alt=""> Contacto del programador</p>
+                </div>
+            </div>
+
             <img class="nav_background" src="assets/nav_background.png" alt="background image">
             <div class="menu_buttons">
                 <figure class="menu_icon_container">
@@ -22,6 +35,9 @@
                 </figure>
             
             </div>
+
+            
+
         </nav>
     </header>
 
@@ -176,20 +192,19 @@
             <div class="plans_container">
 
                 <div class="plans_card plans_card_free card_to_left">
-                    <div class="plan_name">Premium</div>
+                    <div class="plan_name plan_name_free">Free</div>
                     <div class="plan_benefits_container">
                         <p class="plan_benefit_text"> <img src="assets/check_icon.svg" alt=""> Adoby fd Acceso Completo</p>
                         <p class="plan_benefit_text"> <img src="assets/check_icon.svg" alt=""> Adoby tr Acceso Completo</p>
-                        <p class="plan_benefit_text"> <img src="assets/check_icon.svg" alt=""> Adoby UL Acceso Completo</p>
+                        <p class="plan_benefit_text benefit_disabled"> <img src="assets/x_icon.svg" alt=""> Adoby UL Acceso Completo</p>
                         <p class="plan_benefit_text benefit_disabled"> <img src="assets/x_icon.svg" alt=""> Adoby HR Acceso Completo</p>
                         <p class="plan_benefit_text benefit_disabled"> <img src="assets/x_icon.svg" alt=""> Adoby HT Acceso Completo</p>
                         <p class="plan_benefit_text benefit_disabled"> <img src="assets/x_icon.svg" alt=""> Adoby CL Acceso Completo</p>
                         <p class="plan_benefit_text benefit_disabled"> <img src="assets/x_icon.svg" alt=""> Acceso a art-work Libraries</p>
                         <p class="plan_benefit_text benefit_disabled"> <img src="assets/x_icon.svg" alt=""> Atención y Soporte técnico </p>
                     </div>
-                    <h3 class="plan_price">$59.99 / año</h3>
-                    <button class="subscribe_plan_btn">Suscribirse</button>
-                    <button class="try_premium_btn">Prueba Gratis</button>
+                    <h3 class="plan_price">Free</h3>
+                    <button class="subscribe_plan_btn free_btn_customize">Suscribirse</button>
                 </div>
                 
                 <div class="plans_card plans_card_premium card_to_center">
@@ -210,20 +225,20 @@
                 </div>
 
                 <div class="plans_card plans_card_gold card_to_right">
-                    <div class="plan_name">Premium</div>
+                    <div class="plan_name plan_gold_name">Gold</div>
                     <div class="plan_benefits_container">
                         <p class="plan_benefit_text"> <img src="assets/check_icon.svg" alt=""> Adoby fd Acceso Completo</p>
                         <p class="plan_benefit_text"> <img src="assets/check_icon.svg" alt=""> Adoby tr Acceso Completo</p>
                         <p class="plan_benefit_text"> <img src="assets/check_icon.svg" alt=""> Adoby UL Acceso Completo</p>
-                        <p class="plan_benefit_text benefit_disabled"> <img src="assets/x_icon.svg" alt=""> Adoby HR Acceso Completo</p>
-                        <p class="plan_benefit_text benefit_disabled"> <img src="assets/x_icon.svg" alt=""> Adoby HT Acceso Completo</p>
-                        <p class="plan_benefit_text benefit_disabled"> <img src="assets/x_icon.svg" alt=""> Adoby CL Acceso Completo</p>
-                        <p class="plan_benefit_text benefit_disabled"> <img src="assets/x_icon.svg" alt=""> Acceso a art-work Libraries</p>
-                        <p class="plan_benefit_text benefit_disabled"> <img src="assets/x_icon.svg" alt=""> Atención y Soporte técnico </p>
+                        <p class="plan_benefit_text"> <img src="assets/check_icon.svg" alt=""> Adoby HR Acceso Completo</p>
+                        <p class="plan_benefit_text"> <img src="assets/check_icon.svg" alt=""> Adoby HT Acceso Completo</p>
+                        <p class="plan_benefit_text"> <img src="assets/check_icon.svg" alt=""> Adoby CL Acceso Completo</p>
+                        <p class="plan_benefit_text"> <img src="assets/check_icon.svg" alt=""> Acceso a art-work Libraries</p>
+                        <p class="plan_benefit_text"> <img src="assets/check_icon.svg" alt=""> Atención y Soporte técnico </p>
                     </div>
-                    <h3 class="plan_price">$59.99 / año</h3>
-                    <button class="subscribe_plan_btn">Suscribirse</button>
-                    <button class="try_premium_btn">Prueba Gratis</button>
+                    <h3 class="plan_price">$99.99 / año</h3>
+                    <button class="subscribe_plan_btn gold_plan_customize">Suscribirse</button>
+                    <button class="try_premium_btn try_gold_customize">Prueba Gratis</button>
                 </div>
 
                 <button class="next_plan"><img id="next_plan_image" src="assets/right_arrow.png" alt=""></button>

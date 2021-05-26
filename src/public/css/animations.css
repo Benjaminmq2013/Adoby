@@ -1,0 +1,28 @@
+.hide_menu{
+    animation-name: hide_menu;
+    animation-duration: .5s;
+    animation-fill-mode: both;    
+}
+
+@keyframes hide_menu {
+    0%{
+        left: 0
+    }
+    100%{
+        left: -100vw;
+    }
+}
+
+.show_menu{
+    animation-name: show_menu;
+    animation-duration: .5s;  
+}
+
+@keyframes show_menu {
+    0%{
+        left: -100vw;
+    }
+    100%{
+        left: 0;
+    }
+}
