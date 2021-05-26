@@ -1,0 +1,63 @@
+@media screen and (max-width:380px){
+    .navbar{
+        height: 58px;
+    }
+    .hero_container {
+        padding: 38px 12%;
+    }
+    .adoby_products_container {
+        margin-bottom: 48px;
+    }
+    .header_logo_container img {
+        height: 22px;
+        width: 22px;
+    }
+    .logo_name {
+        font-size: 14px;
+    }
+    .menu_icon_container img {
+        width: 25px;
+        height: 17px;
+        margin-top: 6px;
+    }
+    
+    .download_it_btn{
+        font-size: 13px;
+        padding: 9px 24%;
+    }
+    .download_title{
+        font-size: 13px;
+    }
+    .main_title {
+        font-size: 18px;
+    }
+    .main_title br{
+        display: none;
+    }
+    .downloads_menu_btn {
+        height: 67px;
+    }
+    .align_benefit img{
+        height: 52px;
+    }
+    .benefit_title{
+        font-size: 11px;
+    }
+    .benefits {
+        padding: 5px 10% 0px 10%;
+    }
+    .main_subtitle br{
+        display: none;
+    }
+}
+
+@media screen and (max-width:320px){
+    .main_title {
+        font-size: 15px;
+    }
+    
+    .main_subtitle{
+        font-size: 11px;
+    }
+    
+}
