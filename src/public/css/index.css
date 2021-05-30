@@ -411,9 +411,14 @@ p{
     width: 100%;
     height: 733px;
 }
-
+.next_plan, .last_plan{
+    max-width: 55px;
+} 
+.next_plan img, .last_plan img{
+    width: 100%;
+}
 .plans_card{
-    width: 302px;
+    width: 72%;
     height: 663px;
     background-color: #FEFEFE;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.432);
